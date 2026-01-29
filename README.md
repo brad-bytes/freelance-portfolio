@@ -1,2 +1,2 @@
 # freelance-portfolio
-Mu personal freelance website.
+My personal freelance website.
