@@ -1,11 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Small Business Web Developer</title>
+
+  <!-- Primary SEO -->
+  <title>Web Developer for Small Businesses | Websites That Get Clients</title>
+  <meta name="description"
+    content="I build fast, modern websites for small businesses designed to turn visitors into customers. Mobile-friendly, SEO-ready, and built to convert." />
+  <meta name="keywords"
+    content="small business website developer, freelance web developer, local business website design, responsive business websites" />
+  <meta name="author" content="Your Name" />
+
+  <!-- Open Graph (Social Sharing) -->
+  <meta property="og:title" content="Websites That Help Small Businesses Get More Customers" />
+  <meta property="og:description" content="Modern, fast websites designed to bring in real leads and clients." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yourdomain.com" />
+  <meta property="og:image" content="https://yourdomain.com/preview.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Web Developer for Small Businesses" />
+  <meta name="twitter:description" content="Websites built to convert visitors into customers." />
+
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- AOS Animation Library -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
+
+
 <body class="bg-gray-50 text-gray-800">
 
   <!-- NAV -->
@@ -16,19 +43,22 @@
       <a href="services.html">Services</a>
       <a href="portfolio.html">Portfolio</a>
       <a href="about.html">About</a>
-      <a href="contact.html" class="bg-blue-600 text-white px-4 py-2 rounded">Contact</a>
+      <a href="contact.html"
+        class="bg-blue-600 text-white px-6 py-3 rounded text-lg transition transform hover:scale-105 hover:bg-blue-700">Contact</a>
     </div>
   </nav>
 
   <!-- HERO -->
-  <section class="text-center py-20 px-6">
+  <section class="text-center py-20 px-6" data-aos="fade-up">
     <h2 class="text-4xl font-bold mb-4">Websites That Help Small Businesses Get More Customers</h2>
     <p class="text-lg mb-6">I build fast, modern websites designed to turn visitors into real inquiries.</p>
-    <a href="contact.html" class="bg-blue-600 text-white px-6 py-3 rounded text-lg">Book a Free Call</a>
+    <a href="contact.html"
+      class="bg-blue-600 text-white px-6 py-3 rounded text-lg transition transform hover:scale-105 hover:bg-blue-700">Book
+      a Free Call</a>
   </section>
 
   <!-- PROBLEM -->
-  <section class="bg-white py-16 px-6 text-center">
+  <section class="bg-white py-16 px-6 text-center" data-aos="fade-right">
     <h3 class="text-2xl font-semibold mb-4">Most Small Business Websites Don't Bring Clients</h3>
     <p>Slow, outdated sites with no clear calls to action lose potential customers every day.</p>
   </section>
@@ -37,9 +67,10 @@
   <section class="py-16 px-6 text-center">
     <h3 class="text-2xl font-semibold mb-6">I Build Websites That Convert</h3>
     <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-      <div class="p-6 bg-white shadow rounded">Mobile Friendly</div>
-      <div class="p-6 bg-white shadow rounded">Fast Loading</div>
-      <div class="p-6 bg-white shadow rounded">Clear Contact Forms</div>
+      <div class="p-6 bg-white shadow rounded" data-aos="zoom-in">Mobile Friendly</div>
+      <div class="p-6 bg-white shadow rounded" data-aos="zoom-in" data-aos-delay="150">Fast Loading</div>
+      <div class="p-6 bg-white shadow rounded" data-aos="zoom-in" data-aos-delay="300">Clear Contact Forms</div>
+
     </div>
   </section>
 
@@ -47,19 +78,31 @@
   <section class="bg-white py-16 px-6 text-center">
     <h3 class="text-2xl font-semibold mb-6">How It Works</h3>
     <div class="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-      <div>1. Quick Call</div>
-      <div>2. I Build</div>
-      <div>3. You Review</div>
-      <div>4. Launch 🚀</div>
+      <div data-aos="flip-left">1. Quick Call</div>
+      <div data-aos="flip-left" data-aos-delay="100">2. I Build</div>
+      <div data-aos="flip-left" data-aos-delay="200">3. You Review</div>
+      <div data-aos="flip-left" data-aos-delay="300">4. Launch 🚀</div>
     </div>
   </section>
 
   <!-- CTA -->
   <section class="py-20 text-center">
     <h3 class="text-2xl font-semibold mb-4">Ready for a website that brings clients?</h3>
-    <a href="contact.html" class="bg-blue-600 text-white px-6 py-3 rounded">Start Now</a>
+    <a href="contact.html"
+      class="bg-blue-600 text-white px-6 py-3 rounded text-lg transition transform hover:scale-105 hover:bg-blue-700">Start
+      Now</a>
   </section>
 
-</body>
-</html>
 
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+
+</body>
+
+</html>
